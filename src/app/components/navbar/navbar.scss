@@ -1,0 +1,11 @@
+.navbar {
+  md-toolbar {
+    background-color: transparent;
+    .logo {
+      margin-left: 20px;
+    }
+    .md-button {
+      text-transform: none;
+    }
+  }
+}
