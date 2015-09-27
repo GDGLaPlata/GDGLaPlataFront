@@ -1,17 +1,24 @@
-<div layout="vertical" layout-fill>
+<div layout="vertical" layout-fill layout-wrap>
 
-  <md-content flex>
-    <header>
-      <section class="navbar">
-        <acme-navbar></acme-navbar>
-      </section>
+    <md-content flex>
+        <header>
+            <section class="navbar">
+                <acme-navbar></acme-navbar>
+            </section>
 
-      <section class="join-us">
-
-      </section>
-    </header>
-
-
-  </md-content>
+            <section class="join-us" layout="column" layout-align="center center">
+                <div class="gdg-logo"></div>
+                <div layout="row">
+                    <span flex></span>
+                    <p class="md-display-3" flex="55">
+                        Intercambia conocimiento con apacionados de la tecnología
+                    </p>
+                    <span flex></span>
+                </div>
+                <md-button class="primary-button md-raised md-primary">Quiero ser parte</md-button>
+            </section>
+            
+        </header>
+    </md-content>
 
 </div>

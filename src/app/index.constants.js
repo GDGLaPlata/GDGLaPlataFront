@@ -6,5 +6,4 @@
     .module('Main')
     .constant('malarkey', malarkey)
     .constant('moment', moment);
-
 })();
