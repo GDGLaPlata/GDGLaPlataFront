@@ -69,7 +69,7 @@ gulp.task('html', ['inject', 'partials'], function () {
 		.pipe($.size({ title: path.join(conf.paths.dist, '/'), showFiles: true }));
 });
 
-gulp.task('images', ['clean'], function() {
+gulp.task('images', function() {
 	return gulp.src('src/assets/images/*')
 		.pipe($.imagemin({optimizationLevel: 7}))
 		.pipe(gulp.dest('dist/assets/images'));
