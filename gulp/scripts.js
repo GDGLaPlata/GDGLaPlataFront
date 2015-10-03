@@ -15,7 +15,6 @@ gulp.task('scripts', function () {
 		])
 		.pipe($.jshint())
 		.pipe($.jshint.reporter($.stylish))
-		.pipe($.jshint.reporter('fail'))
 		.pipe(browserSync.reload({ stream: true }))
 		.pipe($.size())
 });

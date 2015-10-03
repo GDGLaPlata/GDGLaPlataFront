@@ -2,7 +2,21 @@
   'use strict';
 
   angular
-    .module('Main', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngMessages', 'ngAria', 'ngResource', 'ngRoute', 'ngMaterial', 'toastr'])
+    .module('Main', [
+		  'Blog',
+		  'Events',
+		  'News',
+		  'ngAnimate',
+		  'ngAria',
+		  'ngCookies',
+		  'ngMaterial',
+		  'ngMessages',
+		  'ngResource',
+		  'ngRoute',
+		  'ngSanitize',
+		  'ngTouch',
+		  'toastr'
+	    ])
 		.config(function($mdThemingProvider) {
 			$mdThemingProvider.theme('default')
 				.primaryPalette('blue')
