@@ -9,7 +9,8 @@ To see the website go to: http://gdglaplata.github.io/GDGLaPlataFront/#/
 - Install dependencies using <b>npm-install</b> and <b>bower install</b>. Make sure to have node installed in your computer prior to this.
 
 - To run the development server use <b>gulp serve</b>. 
-- To deploy the changes run <b>gulp build</b> (or just <b>gulp</b>) and then push the dist folder to the gh-pages branch: <b>git subtree push --prefix dist origin gh-pages</b>
+- To deploy the changes run <b>gulp build</b> (or just <b>gulp</b>) and then push the dist folder to the gh-pages branch: <b>git subtree push --prefix dist origin gh-pages</b>. If you get a "Updates were rejected because a pushed branch tip is behind its remote" error, you can force it using <b>git push origin `git subtree split --prefix dist master`:gh-pages --force </b>
+
 
 This website uses yeoman with the angular-gulp generator. You can read the documentation here: https://github.com/Swiip/generator-gulp-angular/blob/master/docs/usage.md
 
