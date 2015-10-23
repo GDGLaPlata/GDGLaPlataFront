@@ -4,9 +4,15 @@ info-banner {
         background-color: white;
         color: #858585;
 
-        .info-logos {
-            background: url("../assets/images/logos.png") no-repeat;
-            height: 250px;
+        .logos {
+
+            margin-top: 30px;
+
+            .info-logos {
+              background: url("../assets/images/logos.png") no-repeat;
+              height: 250px;
+            }
+
         }
     }
 }
