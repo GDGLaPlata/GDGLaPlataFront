@@ -46,11 +46,17 @@
 
 html {
   font-family: 'Roboto', serif;
+  font-size: 20px;
+}
+
+md-content {
+  background-color: white;
 }
 
 [layout=row] {
   flex-direction: row;
 }
+
 
 .browsehappy {
   margin: 0.2em 0;

@@ -10,19 +10,20 @@
 
 	/** @ngInject */
 	function heroBanner() {
+
 		var directive = {
 			restrict: 'E',
 			templateUrl: 'app/components/hero-banner/hero-banner.html',
 			scope: {
 				title: '='
 			},
-			link: NavbarLink
+			link: heroBannerLink
 		};
 
 		return directive;
 
 		/** @ngInject */
-		function NavbarLink() {
+		function heroBannerLink() {
 		}
 	}
 
