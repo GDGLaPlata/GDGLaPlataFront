@@ -17,7 +17,8 @@
 			templateUrl: 'app/components/info-banner/info-banner.html',
 			scope: {
 				title: '=',
-				text: '='
+				text: '=',
+				order: '='
 			},
 			link: infoBannerLink
 		};

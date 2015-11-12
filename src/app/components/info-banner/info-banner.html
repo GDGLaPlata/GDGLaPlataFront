@@ -1,10 +1,10 @@
 <section layout="row" layout-align="center center">
     <div flex="75" layout-gt-md="row" layout-md="column">
-        <div flex hide-md hide-sm></div>
-        <div flex="40" hide-md hide-sm class="logos">
+
+        <div flex="50" hide-md hide-sm class="logos" flex-order="{{order}}">
             <ng-transclude></ng-transclude>
         </div>
-        <div flex="50">
+        <div flex="50" layout-align="center center">
             <h2 class="md-display-2">{{title}}</h2>
             <p>{{text}}</p>
         </div>

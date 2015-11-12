@@ -3,6 +3,7 @@ info-banner {
         height: 400px;
         background-color: white;
         color: #858585;
+        margin-top: 21px;
 
         .logos {
 
@@ -11,6 +12,11 @@ info-banner {
             .info-logos {
               background: url("../assets/images/logos.png") no-repeat;
               height: 250px;
+            }
+
+            .calendar {
+              background: url("../assets/images/calendar.png") no-repeat;
+              height: 400px;
             }
 
         }
