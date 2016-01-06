@@ -3,3 +3,6 @@ bower_components
 
 # Npm
 node_modules
+
+# Gulp Serve
+.tmp
